@@ -61,10 +61,8 @@
 	name = "Nevado Surface Level"
 	width = 255
 	height = 255
-	mappath = '_maps/_septic/templates/nevado_surface.dmm'
 
 /datum/map_template/nevado_cave
 	name = "Nevado Cave Level"
 	width = 255
 	height = 255
-	mappath = '_maps/_septic/templates/nevado_cave.dmm'
