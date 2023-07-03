@@ -15,8 +15,8 @@
 
 // RUGER MKIV
 /obj/item/gun/ballistic/automatic/pistol
-	name = "\improper Plinker pistol"
-	desc = "A small, easily concealable 9mm handgun. Has a threaded barrel for suppressors."
+	name = "\improper TF-Trainer"
+	desc = "A small, easily concealable 9mm handgun produced by Terran Federal for training security forces. It has a threaded barrel for a suppressor!"
 	icon = 'modular_septic/icons/obj/items/guns/pistol.dmi'
 	icon_state = "ruger"
 	base_icon_state = "ruger"
@@ -46,8 +46,8 @@
 
 // BERETTA 69R
 /obj/item/gun/ballistic/automatic/pistol/aps
-	name = "\improper 69R machine pistol"
-	desc = "A machine pistol made by some crazy italians, capable of shooting in 3-round bursts. \
+	name = "\improper CA-Oppressor"
+	desc = "A machine pistol designed by Centauri-Arms. It was designed for the Republican Guard Internal-Security forces. \
 		Uses 9mm ammo. Has a threaded barrel for suppressors."
 	fire_sound = 'modular_septic/sound/weapons/guns/pistol/aps.ogg'
 	suppressed_sound = list(
@@ -82,12 +82,20 @@
 	custom_price = 4500
 	full_auto = TRUE
 
+/obj/item/gun/ballistic/automatic/pistol/aps/mkfa
+	name = "\improper MKFA-Oppressor"
+	desc = "A machine pistol licensed produced by Minikasha. It is somewhat heavier than its CA counterpart with a 2 round burst. \
+		Uses 9mm ammo. Has a threaded barrel for suppressors."
+	carry_weight = 2 KILOGRAMS
+	custom_price = 3250
+	burst_size = 2
+
 /obj/item/gun/ballistic/automatic/pistol/remis
 
 // M1911
 /obj/item/gun/ballistic/automatic/pistol/m1911
-	name = "\improper M1911"
-	desc = "A classical copy of a antique design, even centuries later is efficient for close-quarter combat and self-defence at the cost of magazine capacity."
+	name = "\improper TF-Patriot"
+	desc = "The Terran-Federation Patriot is an ancient design chambering the .45 cartridge. Legendary among mercenary and military forces alike."
 	icon = 'modular_septic/icons/obj/items/guns/pistol.dmi'
 	icon_state = "m1911"
 	base_icon_state = "m1911"
@@ -106,8 +114,9 @@
 
 // USP
 /obj/item/gun/ballistic/automatic/pistol/cortes //corruptable gun
-	name = "\improper Cortes .45"
-	desc = "A lavish pistol for a lavish life."
+	name = "\improper CA-Apprentice"
+	desc = "The Centauri-produced Apprentice was originally designed for the Solarian Territorials Officers. It lost the contract to the TF-Witness. \
+			it is still well regarded as a reliable handgun! Chambers the .45 caliber round."
 	icon = 'modular_septic/icons/obj/items/guns/pistol.dmi'
 	icon_state = "USP"
 	base_icon_state = "USP"
@@ -178,9 +187,9 @@
 
 // STI 2011 COMBAT MASTER
 /obj/item/gun/ballistic/automatic/pistol/remis/combatmaster
-	name = "\improper Frag Master 2511"
-	desc = "An expensive, reliable handgun with a large magazine capacity. \
-			Very similar to the Cold 1911, but chambered in 9mm and made with modern materials such as a polymer handle and titanium frame."
+	name = "\improper TF-Houndmaster"
+	desc = "The Terran Federal Houndmaster is an expensive and showoff handgun. Historically purchased amongst Officers of the Solarian Territorials as a form of promotional gift.\
+			It is chambered in the 9mm cartridge, and uses an expensive exotic-metal in its construction!"
 	icon = 'modular_septic/icons/obj/items/guns/pistol.dmi'
 	icon_state = "combatmaster"
 	base_icon_state = "combatmaster"
@@ -200,12 +209,12 @@
 	mag_type = /obj/item/ammo_box/magazine/combatmaster9mm
 	w_class = WEIGHT_CLASS_NORMAL
 	carry_weight = 1 KILOGRAMS
-	custom_price = 4500
+	custom_price = 8000
 
 // GLOCK-17
 /obj/item/gun/ballistic/automatic/pistol/remis/glock17
-	name = "\improper Gosma-17 9mm pistol"
-	desc = "A chunky pistol often accompanied with the screams of thugs."
+	name = "\improper TF-Civilian"
+	desc = "A simple and boxy handgun. Commonly used by security officers due to its reliable nature and dirt-cheap pricetag!"
 	icon = 'modular_septic/icons/obj/items/guns/pistol.dmi'
 	icon_state = "glock"
 	base_icon_state = "glock"
@@ -232,9 +241,8 @@
 
 // WALTHER PPK
 /obj/item/gun/ballistic/automatic/pistol/remis/ppk
-	name = "\improper Bombeiro 22lr pistol"
-	desc = "The Walter Bomberio pistol is a reliable, easily concealable 22lr pistol. \
-			Doesn't pack too much of a punch, but was famously used by a british secret agent."
+	name = "\improper TA-Littletree"
+	desc = "Terran Federals littletree, one of the companies most infamous failures. It chambers the anemic .22 cartridge."
 	icon = 'modular_septic/icons/obj/items/guns/pistol.dmi'
 	icon_state = "ppk"
 	base_icon_state = "ppk"
@@ -264,7 +272,7 @@
 	suppressor_x_offset = 8
 	custom_price = 900
 
-// "DEAGLE"
+// "DEAGLE" Dont use this gun.
 /obj/item/gun/ballistic/automatic/pistol/remis/aniquilador
 	name = "\improper Aniquilador .50 LE Anti-Personnel Firearm"
 	desc = "A very rare firearm that can be found within experimental military bases, comes loaded with .50 LE, Living Exterminator rounds. \
@@ -349,9 +357,9 @@
 	custom_price = 5500
 
 /obj/item/gun/ballistic/automatic/pistol/remis/pm9
-	name = "\improper PM9 Evil Gun"
-	desc = "This is a strown together pack of metal that has just enough things touching eachother in the certain way to not burst in your hands when you fire. \
-	A unholy abomination, a devious, godforsaken handgun. Use it with care."
+	name = "\improper TF-Sinner"
+	desc = "The Terran Federation 'Sinner' is considered by many to be one of the worst weapons ever produced by the company. \
+	lacking in almost every department, it is only commonly used by collectors or the backwater milita units."
 	icon = 'modular_septic/icons/obj/items/guns/pistol.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/pistol_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/pistol_righthand.dmi'

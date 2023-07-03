@@ -68,8 +68,9 @@
 
 // The legendary
 /obj/item/gun/ballistic/shotgun/doublebarrel/bobox
-	name = "Bobox shotgun"
-	desc = "A legendary shotgun with a simple combination of two barrels, not ideal, but a powerful weapon in the filthiest, unskilled hands."
+	name = "TF-Bitch"
+	desc = "The Legendary Bitch. It's real name has been long forgotten as Terran Federal marketing embraced the nickname given to it by customers. \
+	kicks like a bitch, hits even harder. Beloved by just about any milita soldier."
 	icon = 'modular_septic/icons/obj/items/guns/shotgun.dmi'
 	inhand_icon_state = "bobox"
 	base_icon_state = "bobox"
@@ -97,7 +98,8 @@
 
 // ITHACA SHOTGUN
 /obj/item/gun/ballistic/shotgun/ithaca
-	name = "\improper ITOBE modelo 37 shotgun"
+	name = "\improper CA-Kanker"
+	desc = "The Centauri-Arms Kanker. The most widely used breaching shotgun used by the Solarian Marines."
 	icon = 'modular_septic/icons/obj/items/guns/40x32.dmi'
 	icon_state = "ithaca"
 	base_icon_state = "ithaca"
@@ -105,8 +107,8 @@
 
 // ??? SHOTGUN
 /obj/item/gun/ballistic/shotgun/riot
-	name = "\improper Peneloppe Sit-Down shotgun"
-	desc = "A sturdy shotgun with a longer magazine and a fixed tactical stock designed for \"non-lethal\" riot control."
+	name = "\improper TF-Unionbuster"
+	desc = "The Terran Federal Unionbuster got its name during The Red Wars, where it was used against entrenched communist forces with disgusting effect."
 	icon = 'modular_septic/icons/obj/items/guns/40x32.dmi'
 	icon_state = "riot"
 	base_icon_state = "riot"
@@ -132,8 +134,8 @@
 
 // BENELLI M4 SHOTGUN
 /obj/item/gun/ballistic/shotgun/automatic/combat
-	name = "\improper Peneloppe CYM shotgun"
-	desc = "A semi automatic shotgun with tactical furniture and a six-shell(+1) capacity underneath."
+	name = "\improper CA-Macemen"
+	desc = "The Centauri-Arms Macemen is the next generation of breaching shotgun by the company. It has only seen minimal adoption throughout the Marines. "
 	icon = 'modular_septic/icons/obj/items/guns/40x32.dmi'
 	icon_state = "combat"
 	base_icon_state = "combat"
@@ -159,9 +161,8 @@
 
 // BROWNING 2000 SHOTGUN
 /obj/item/gun/ballistic/shotgun/automatic/b2000
-	name = "\improper Bowling 3000 shotgun"
-	desc = "The Bowling 3000 is a gas operated, semi automatic shotgun. \
-		It has a 4(+1) shell capacity."
+	name = "\improper MKFA-Salvekiss"
+	desc = "A rather strangely named semi-automatic shotgun noted for being entirely unreliable, overpriced and generally confusing if it wasnt for the fact it can take a silencer!"
 	icon = 'modular_septic/icons/obj/items/guns/40x32.dmi'
 	icon_state = "b2000"
 	base_icon_state = "b2000"
@@ -184,9 +185,9 @@
 
 // BELADOR 2021 SILENCED SHOTGUN
 /obj/item/gun/ballistic/shotgun/automatic/b2021
-	name = "\improper Belador 2021 shotgun"
-	desc = "The Belador 2021 is a gas operated, semi automatic special-operations shotgun developed by the DEATH SEC Unit \
-		It has a 9(+1) shell capacity."
+	name = "\improper MKFA-Succubus"
+	desc = "MKFA's most beloved product. The Succubus is a silenced semi-automatic shotgun with a ten-on-tap capacity. \
+	Few guns have put the fear of their false fucking Gods into Xeno insurgents like this baby has."
 	icon = 'modular_septic/icons/obj/items/guns/40x32.dmi'
 	icon_state = "b2021"
 	inhand_icon_state = "b2021"
@@ -217,10 +218,8 @@
 
 // ??? AUTOMATIC SHOTGUN
 /obj/item/gun/ballistic/shotgun/bulldog
-	name = "\improper Massacre Shotgun"
-	desc = "A semi-auto, mag-fed shotgun for combat in narrow corridors. \
-		Compatible only with specialized 8-round(+1) drum magazines. \
-		Famously used by a terrorist in the \"Corn syrup rapture\" incident."
+	name = "\improper CA-Armageddon"
+	desc = "Centauri-Arms answer to the wildly popular Succubus. An impressive semi-automatic shotgun with a cripplingly high price-tag!"
 	icon = 'modular_septic/icons/obj/items/guns/40x32.dmi'
 	icon_state = "automatic"
 	base_icon_state = "automatic"
@@ -260,8 +259,8 @@
 
 // SAIGA-12 AUTOMATIC SHOTGUN
 /obj/item/gun/ballistic/shotgun/abyss
-	name = "\improper AN-12 Abyss automatic shotgun"
-	desc = "An odd-looking shotgun manufactured by Godheavy Industries"
+	name = "\improper TF-Knocker"
+	desc = "A relatively interesting product from Terran Federation. Made in direct response to Armageddon and Succubus. It fails to compete with either, however."
 	icon = 'modular_septic/icons/obj/items/guns/48x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/shotgun_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/shotgun_righthand.dmi'
@@ -304,8 +303,9 @@
 
 // BALLS DESTROYER
 /obj/item/gun/ballistic/shotgun/bolas
-	name = "\improper Destruidor de Bolas 4-gauge shotgun"
-	desc = "Holy shit. That's a big fucking shotgun."
+	name = "\improper MKFA-Crusader"
+	desc = "When Minikasha was designing the crusader it was said they were on fourteen different kinds of drugs and on a six hour whore fucking spree in the Katilos System. \
+	Chambers a utterly fucking massive four-gauge shell. It's liable to break your wrist."
 	icon = 'modular_septic/icons/obj/items/guns/48x32.dmi'
 	icon_state = "bolas"
 	base_icon_state = "bolas"

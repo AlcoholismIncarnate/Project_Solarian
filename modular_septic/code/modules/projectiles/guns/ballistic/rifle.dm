@@ -23,8 +23,9 @@
 
 // Killer-49
 /obj/item/gun/ballistic/automatic/remis/winter
-	name = "\improper Inverno Genocídio NK-49 Assault Rifle"
-	desc = "Inverno Genocídio, 'Winter Genocide' Assault Rifle firing in 5.56. Used by Ordin- Ordinat... ORDINATORS KILL THIS BASTARD!"
+	name = "\improper CA-Defender"
+	desc = "The Centauri produced Defender is a Solarian classic. Serving as the primary rifle of the Republican Guard since the 2300's! \
+	Chambers the 5.56x45 cartridge!"
 	icon = 'modular_septic/icons/obj/items/guns/48x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_righthand.dmi'
@@ -70,9 +71,9 @@
 
 //Darkworld Gun
 /obj/item/gun/ballistic/automatic/remis/abyss
-	name = "\improper AN-94 5.4539mm Abyss Armaments Assault Rifle"
-	desc = "A mysterious bolshevik rifle that was produced as a result of a need for a fully-automatic standard rifle for the red's finest. \
-		The muzzle brake seems to be compatable with noise suppressors! So good."
+	name = "\improper TF-Partisan"
+	desc = "The Terran Federal Partisan was a close competitor of the Defender-family of rifles. Prefered on frontier worlds due to its low cost and forgiving tolerances! \
+		It chambers the five-four-five cartridge."
 	icon = 'modular_septic/icons/obj/items/guns/48x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_righthand.dmi'
@@ -137,9 +138,9 @@
 	install_suppressor(S)
 
 /obj/item/gun/ballistic/automatic/remis/g11
-	name = "\improper Kh11 4.92x34mm Assault Rifle"
-	desc = "An almost sci-fi designed rifle with a complex mechanism on the inside. \
-	It was rumored in the past that the HRE was making a rifle that could be shot without casings being left behind, this chunky firearm is their sucess story."
+	name = "\improper MKFA Wardog"
+	desc = "A firearm produced well before the rise of the Solarian Government. It has somehow survived to modernity thanks to its production by Minikasha. \
+	chambers a unique caseless munition using a top-feeding magazine."
 	icon = 'modular_septic/icons/obj/items/guns/40x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_righthand.dmi'
@@ -198,7 +199,7 @@
 	if(chamber_next_round && (magazine?.max_ammo > 1))
 		chamber_round()
 
-/obj/item/gun/ballistic/automatic/remis/steyr
+/obj/item/gun/ballistic/automatic/remis/steyr // NOPE. DONT USE.
 	name = "\improper Selo-Selo ACR Prototype Flechette-Firing Assault Rifle"
 	desc = "A unique firearm that practically consists of one large piece with a barrel ran through the whole gun. Fires in steel-SCF Flechettes. \
 		If you look hard enough, the entire gun seems to vibrate, and shake. It's almost like It's alive."
@@ -294,9 +295,9 @@
 
 // 7.62x54R Lampiao sniper-rifle
 /obj/item/gun/ballistic/automatic/remis/svd
-	name = "\proper Lampiao semi-automatic designated marksman rifle"
-	desc = "A Lampiao sniper-rifle firing in 7.62x54R, the design allows for comfortable medium and long range combat, and unconventional, but effective CQC against armored targets. \
-	 Has a dovetail mount for a PSO-1M2-1 4x24 scope and a threaded barrel for a sound-suppressor. "
+	name = "\proper TF-Killshot"
+	desc = "A Terran Federal produced Killshot is based off an ancient pre-Sol design. It has never seen wide adoption from anyone beyond milita forces. \
+	Chambers the powerful 7.62x54 rimmed cartridge. "
 	icon = 'modular_septic/icons/obj/items/guns/64x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_righthand.dmi'
@@ -371,8 +372,9 @@
 	tetris_height = 128
 
 /obj/item/gun/ballistic/rifle/boltaction/remis/federson
-	name = "\improper Federson \"Osaco Chuckster\" bolt-action rifle"
-	desc = "A bolt-action rifle capable of piercing through armor, and making accurate shots even at a range. It's cursed by having It's own cartridge unfortunately, .276 Federson."
+	name = "\improper Federson bolt-action rifle"
+	desc = "A bolt-action rifle capable of piercing through armor, and making accurate shots even at a range. Produced by the now defunct Federson Company. \
+	        It uses the rare .276 Federson."
 	icon_state = "pedersen"
 	base_icon_state = "pedersen"
 	inhand_icon_state = "pedersen"
@@ -390,8 +392,8 @@
 
 //G36
 /obj/item/gun/ballistic/automatic/remis/g36
-	name = "\improper Perdedor 5.56 Void International Assault Rifle"
-	desc = "A sort-of melty, sort-of chocolately 5.56 assault rifle that has the appearance of something that would be easily churned and poured over toast or seafood."
+	name = "\improper CA-Guardian"
+	desc = "An experimental design by Centauri. It was noted for its inability to tolerate heat and has noteable relability issues, unlike its Defender cousin."
 	icon = 'modular_septic/icons/obj/items/guns/64x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/rifle_righthand.dmi'

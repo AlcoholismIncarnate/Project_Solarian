@@ -22,7 +22,7 @@
 		return "untrained"
 	switch(CEILING(level, 1))
 		if(-INFINITY to 2)
-			return "dogshit"
+			return "hopeless"
 		if(3,4)
 			return "worthless"
 		if(5,6)

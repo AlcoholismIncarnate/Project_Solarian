@@ -25,8 +25,9 @@
 
 // ppsh
 /obj/item/gun/ballistic/automatic/remis/smg/ppsh
-	name = "\improper Papasha SMG"
-	desc = "Despite the dated appearance the Papasha is more of a machine pistol than an SMG, the unreliable drum magazine being discarded by the Death Sec Unit decades ago due to many mechanical faults."
+	name = "\improper TF-Papa"
+	desc = "Terran Federations utterly impressive crowd-clearer. The Papa uses a hillariously unreliable feed system, even lower-quality drum-magazines and heavy metal construction. \
+	Beloved by its users."
 	icon = 'modular_septic/icons/obj/items/guns/smg.dmi'
 	base_icon_state = "ppsh"
 	icon_state = "ppsh"
@@ -39,8 +40,9 @@
 
 // hksmg
 /obj/item/gun/ballistic/automatic/remis/smg/solitario
-	name = "\improper Solitario Inseguro R5 submachine gun"
-	desc = "A reliable submachine gun with a high-magazine capacity maufactured by popular civilian arms dealer S&I"
+	name = "\improper MKFA-Protector"
+	desc = "A reliable sub-machinegun offering from Centauri-Arms, now produced by Minikasha. While the original was commonly used by the Solarian Marines for breaching operations. \
+	This fake and illegal reproduction chambers the anemic twenty two caliber and is solely for plinking!"
 	icon = 'modular_septic/icons/obj/items/guns/smg.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/smg_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/smg_righthand.dmi'
@@ -86,8 +88,8 @@
 	custom_price = 10000
 
 /obj/item/gun/ballistic/automatic/remis/smg/bastardo
-	name = "\improper Feio Bastardo R1 submachine gun"
-	desc = "A fully-automatic submachine gun issued to ZoomTech officers and military force with an accelerated fire delay, comes with a folding stock, and a threaded barrel for suppression."
+	name = "\improper TF-Bastard"
+	desc = "Terran Federations offering into the Submachinegun market. Reliable, through anemic and suffering from higher recoil than other offerings. It's saved by its price-tag."
 	icon = 'modular_septic/icons/obj/items/guns/48x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/smg_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/smg_righthand.dmi'
@@ -133,8 +135,8 @@
 	custom_price = 20000
 
 /obj/item/gun/ballistic/automatic/remis/smg/thump
-	name = "\improper Cesno Thump R2 submachine gun"
-	desc = "A fully-automatic submachine gun that fires in optional three-round bursts, comes with a threaded barrel, and was engineered as a direct upgrade to the Solitario to .45 ACP."
+	name = "\improper CA-Operator"
+	desc = "Designed by Centauri-Arms to replace the aging Protector. This powerful and potent SMG is the most commonly used weapon in the Solarian Marines."
 	icon = 'modular_septic/icons/obj/items/guns/48x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/smg_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/smg_righthand.dmi'
@@ -172,8 +174,8 @@
 
 // SUPPRESSED HK SMG
 /obj/item/gun/ballistic/automatic/remis/smg/solitario/suppressed
-	name = "Solitario-SD Inseguro R7 \"Saber\" submachine gun"
-	desc = "An integrally suppressed version of the Solitario, changed post-factory to be chambered in .380, however. This has made the drum mags incompatible."
+	name = "CA-Protector"
+	desc = "The CA protector was the most commonly used submachinegun within the Solarian military until the Operator was assigned active-duty."
 	icon = 'modular_septic/icons/obj/items/guns/48x32.dmi'
 	fire_sound = 'modular_septic/sound/weapons/guns/smg/hksmg380_silenced.ogg'
 	suppressed_sound = 'modular_septic/sound/weapons/guns/smg/hksmg380_silenced.ogg'
@@ -205,8 +207,8 @@
 
 // KAKAKAKAKAKAKAKAKAKKAKAKAKAKAKAKA REALLYGOODCOMICS GUN I LOVE REALLYGOODCOMICS YES SIR I AM AN AIR MARSHAL
 /obj/item/gun/ballistic/automatic/remis/smg/bolsa
-	name = "\improper Bolsa R6 submachine gun"
-	desc = "An antique, compact submachine gun that is prohibited to civillians in many stations. Discontinued, but it still has It's strengths, that being the extendable stock and the size."
+	name = "\improper MKFA-Rebel"
+	desc = "An honest attempt by Minikasha to produce a dirt-cheap and reliable submachinegun for Solarian milita use during The Long War. It's rather impressive given the price-tag."
 	icon = 'modular_septic/icons/obj/items/guns/48x32.dmi'
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/smg_lefthand.dmi'
 	righthand_file = 'modular_septic/icons/obj/items/guns/inhands/smg_righthand.dmi'

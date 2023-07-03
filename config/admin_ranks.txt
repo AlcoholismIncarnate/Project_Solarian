@@ -74,7 +74,7 @@ Include = EVERYTHING
 Exclude = AUTOADMIN
 Edit = EVERYTHING
 
-Name = Host
+Name = Tyrant
 Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING

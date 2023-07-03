@@ -63,9 +63,9 @@
 
 // CATTLE REVOLVER
 /obj/item/gun/ballistic/revolver/remis/gado
-	name = "\improper Revolver de Gado"
-	desc = "An efficient revolver with multiple new systems in-place, if the hammer wasn't enough, there's now a safety exclusively for people who put the gun in their holster way too fast and shoot their own damn leg. \
-			It has a unique system for the hammer and cylinder. It's used for slaughtering cattle."
+	name = "\improper Investigator"
+	desc = "Produced by an unknown manufacturer. The Investigator has cropped up around shady markets across Solarian space. Nobody knows where it comes from, nobody cares to ask. \
+	It is highly prized by collectors for its unmatched stopping power."
 	icon_state = "bladerunner"
 	base_icon_state = "bladerunner"
 	uncocked_icon_state = FALSE
@@ -95,8 +95,8 @@
 
 // NAMBU REVOLVER
 /obj/item/gun/ballistic/revolver/remis/nova
-	name = "\improper Nova Seguranca M62 revolver"
-	desc = "A stained, antique revolver with an unknown insignia on the side."
+	name = "\improper CA-Garrison"
+	desc = "The Centauri-Arms Garrison is a revolver most commonly seen in the hands of Territorial support forces. It's rather cumbersome for its size.."
 	icon_state = "newnambu"
 	base_icon_state = "newnambu"
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/pistol_lefthand.dmi'
@@ -122,8 +122,9 @@
 
 // Poppy
 /obj/item/gun/ballistic/revolver/remis/poppy
-	name = "\improper .500 Poppy Revolver"
-	desc = "A revolver used in a notorius game of random deathmatch."
+	name = "\improper CA-Thumper"
+	desc = "The Thumper was produced by Centauri-Arms during the original conflict with the Coalition. Designed wholly with the intent of showing off human superiority for the cameras \
+	with an awe-inspiring design and hillariously overpowered .500 cartridge. The final arguement in any diplomatic relationship!"
 	icon_state = "500"
 	base_icon_state = "500"
 	lefthand_file = 'modular_septic/icons/obj/items/guns/inhands/pistol_lefthand.dmi'
